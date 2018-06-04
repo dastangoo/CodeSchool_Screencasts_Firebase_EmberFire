@@ -20,6 +20,13 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    firebase: {
+        apiKey: 'AIzaSyDn30AMrrllc3KsRR8E-G0-5leyFQ_z25g',
+        authDomain: 'emberfire-project.firebaseapp.com',
+        databaseURL: 'https://emberfire-project.firebaseio.com',
+        storageBucket: 'emberfire-project.appspot.com',
     }
   };
 
